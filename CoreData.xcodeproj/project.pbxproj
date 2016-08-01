@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		1813CC801AB2B2BA00150C00 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1813CC7F1AB2B2BA00150C00 /* icon.jpg */; };
 		1813CC821AB2B2C700150C00 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1813CC811AB2B2C700150C00 /* icon.png */; };
+		5C11FA711D4F2D00007A689B /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11FA611D4F2D00007A689B /* Note.m */; };
+		5C11FA721D4F2D00007A689B /* NoteBL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11FA631D4F2D00007A689B /* NoteBL.m */; };
+		5C11FA731D4F2D00007A689B /* CoreDataDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11FA661D4F2D00007A689B /* CoreDataDAO.m */; };
+		5C11FA741D4F2D00007A689B /* NoteDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11FA681D4F2D00007A689B /* NoteDAO.m */; };
+		5C11FA751D4F2D00007A689B /* NoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11FA6A1D4F2D00007A689B /* NoteManagedObject.m */; };
+		5C11FA761D4F2D00007A689B /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11FA6D1D4F2D00007A689B /* AddViewController.m */; };
+		5C11FA771D4F2D00007A689B /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C11FA6E1D4F2D00007A689B /* AddViewController.xib */; };
+		5C11FA781D4F2D00007A689B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11FA701D4F2D00007A689B /* RootViewController.m */; };
 		BCC866FB1990961C0054A945 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC866FA1990961C0054A945 /* Foundation.framework */; };
 		BCC866FD1990961C0054A945 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC866FC1990961C0054A945 /* CoreGraphics.framework */; };
 		BCC866FF1990961C0054A945 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC866FE1990961C0054A945 /* UIKit.framework */; };
@@ -24,14 +32,6 @@
 		BCC8671C1990961C0054A945 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC867001990961C0054A945 /* CoreData.framework */; };
 		BCC867241990961C0054A945 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCC867221990961C0054A945 /* InfoPlist.strings */; };
 		BCC867261990961C0054A945 /* CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC867251990961C0054A945 /* CoreDataTests.m */; };
-		BCC867371990980D0054A945 /* NoteBL.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC867361990980D0054A945 /* NoteBL.m */; };
-		BCC867491990C28E0054A945 /* CoreDataDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC867421990C28E0054A945 /* CoreDataDAO.m */; };
-		BCC8674A1990C28E0054A945 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC867441990C28E0054A945 /* Note.m */; };
-		BCC8674B1990C28E0054A945 /* NoteDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC867461990C28E0054A945 /* NoteDAO.m */; };
-		BCC8674C1990C28E0054A945 /* NoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC867481990C28E0054A945 /* NoteManagedObject.m */; };
-		BCC8674F1990C2B70054A945 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC8674E1990C2B70054A945 /* RootViewController.m */; };
-		BCC867531990CE9C0054A945 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC867511990CE9C0054A945 /* AddViewController.m */; };
-		BCC867541990CE9C0054A945 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC867521990CE9C0054A945 /* AddViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +47,21 @@
 /* Begin PBXFileReference section */
 		1813CC7F1AB2B2BA00150C00 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
 		1813CC811AB2B2C700150C00 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5C11FA601D4F2D00007A689B /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		5C11FA611D4F2D00007A689B /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		5C11FA621D4F2D00007A689B /* NoteBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBL.h; sourceTree = "<group>"; };
+		5C11FA631D4F2D00007A689B /* NoteBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteBL.m; sourceTree = "<group>"; };
+		5C11FA651D4F2D00007A689B /* CoreDataDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataDAO.h; sourceTree = "<group>"; };
+		5C11FA661D4F2D00007A689B /* CoreDataDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataDAO.m; sourceTree = "<group>"; };
+		5C11FA671D4F2D00007A689B /* NoteDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDAO.h; sourceTree = "<group>"; };
+		5C11FA681D4F2D00007A689B /* NoteDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDAO.m; sourceTree = "<group>"; };
+		5C11FA691D4F2D00007A689B /* NoteManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteManagedObject.h; sourceTree = "<group>"; };
+		5C11FA6A1D4F2D00007A689B /* NoteManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteManagedObject.m; sourceTree = "<group>"; };
+		5C11FA6C1D4F2D00007A689B /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		5C11FA6D1D4F2D00007A689B /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		5C11FA6E1D4F2D00007A689B /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		5C11FA6F1D4F2D00007A689B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5C11FA701D4F2D00007A689B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		BCC866F71990961C0054A945 /* CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC866FA1990961C0054A945 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BCC866FC1990961C0054A945 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,21 +80,6 @@
 		BCC867211990961C0054A945 /* CoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataTests-Info.plist"; sourceTree = "<group>"; };
 		BCC867231990961C0054A945 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BCC867251990961C0054A945 /* CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTests.m; sourceTree = "<group>"; };
-		BCC867351990980D0054A945 /* NoteBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBL.h; sourceTree = "<group>"; };
-		BCC867361990980D0054A945 /* NoteBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteBL.m; sourceTree = "<group>"; };
-		BCC867411990C28E0054A945 /* CoreDataDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataDAO.h; sourceTree = "<group>"; };
-		BCC867421990C28E0054A945 /* CoreDataDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataDAO.m; sourceTree = "<group>"; };
-		BCC867431990C28E0054A945 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Note.h; path = ../PersistentLayer/Note.h; sourceTree = "<group>"; };
-		BCC867441990C28E0054A945 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Note.m; path = ../PersistentLayer/Note.m; sourceTree = "<group>"; };
-		BCC867451990C28E0054A945 /* NoteDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDAO.h; sourceTree = "<group>"; };
-		BCC867461990C28E0054A945 /* NoteDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDAO.m; sourceTree = "<group>"; };
-		BCC867471990C28E0054A945 /* NoteManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteManagedObject.h; sourceTree = "<group>"; };
-		BCC867481990C28E0054A945 /* NoteManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteManagedObject.m; sourceTree = "<group>"; };
-		BCC8674D1990C2B70054A945 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		BCC8674E1990C2B70054A945 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		BCC867501990CE9C0054A945 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
-		BCC867511990CE9C0054A945 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
-		BCC867521990CE9C0054A945 /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +108,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C11FA5F1D4F2D00007A689B /* NoteBusinesLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5C11FA601D4F2D00007A689B /* Note.h */,
+				5C11FA611D4F2D00007A689B /* Note.m */,
+				5C11FA621D4F2D00007A689B /* NoteBL.h */,
+				5C11FA631D4F2D00007A689B /* NoteBL.m */,
+				5C11FA641D4F2D00007A689B /* PersistentLayer */,
+			);
+			path = NoteBusinesLayer;
+			sourceTree = "<group>";
+		};
+		5C11FA641D4F2D00007A689B /* PersistentLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5C11FA651D4F2D00007A689B /* CoreDataDAO.h */,
+				5C11FA661D4F2D00007A689B /* CoreDataDAO.m */,
+				5C11FA671D4F2D00007A689B /* NoteDAO.h */,
+				5C11FA681D4F2D00007A689B /* NoteDAO.m */,
+				5C11FA691D4F2D00007A689B /* NoteManagedObject.h */,
+				5C11FA6A1D4F2D00007A689B /* NoteManagedObject.m */,
+			);
+			path = PersistentLayer;
+			sourceTree = "<group>";
+		};
+		5C11FA6B1D4F2D00007A689B /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				5C11FA6C1D4F2D00007A689B /* AddViewController.h */,
+				5C11FA6D1D4F2D00007A689B /* AddViewController.m */,
+				5C11FA6E1D4F2D00007A689B /* AddViewController.xib */,
+				5C11FA6F1D4F2D00007A689B /* RootViewController.h */,
+				5C11FA701D4F2D00007A689B /* RootViewController.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		BCC866EE1990961C0054A945 = {
 			isa = PBXGroup;
 			children = (
@@ -142,9 +179,8 @@
 		BCC867021990961C0054A945 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				BCC8672F199096500054A945 /* PersistentLayer */,
-				BCC86731199096A50054A945 /* BusinessLogicLayer */,
-				BCC867301990967F0054A945 /* PresentationLayer */,
+				5C11FA5F1D4F2D00007A689B /* NoteBusinesLayer */,
+				5C11FA6B1D4F2D00007A689B /* Test */,
 				BCC8670B1990961C0054A945 /* AppDelegate.h */,
 				BCC8670C1990961C0054A945 /* AppDelegate.m */,
 				BCC867111990961C0054A945 /* Images.xcassets */,
@@ -183,42 +219,6 @@
 				BCC867221990961C0054A945 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BCC8672F199096500054A945 /* PersistentLayer */ = {
-			isa = PBXGroup;
-			children = (
-				BCC867411990C28E0054A945 /* CoreDataDAO.h */,
-				BCC867421990C28E0054A945 /* CoreDataDAO.m */,
-				BCC867451990C28E0054A945 /* NoteDAO.h */,
-				BCC867461990C28E0054A945 /* NoteDAO.m */,
-				BCC867471990C28E0054A945 /* NoteManagedObject.h */,
-				BCC867481990C28E0054A945 /* NoteManagedObject.m */,
-			);
-			path = PersistentLayer;
-			sourceTree = "<group>";
-		};
-		BCC867301990967F0054A945 /* PresentationLayer */ = {
-			isa = PBXGroup;
-			children = (
-				BCC8674D1990C2B70054A945 /* RootViewController.h */,
-				BCC8674E1990C2B70054A945 /* RootViewController.m */,
-				BCC867501990CE9C0054A945 /* AddViewController.h */,
-				BCC867511990CE9C0054A945 /* AddViewController.m */,
-				BCC867521990CE9C0054A945 /* AddViewController.xib */,
-			);
-			path = PresentationLayer;
-			sourceTree = "<group>";
-		};
-		BCC86731199096A50054A945 /* BusinessLogicLayer */ = {
-			isa = PBXGroup;
-			children = (
-				BCC867351990980D0054A945 /* NoteBL.h */,
-				BCC867361990980D0054A945 /* NoteBL.m */,
-				BCC867431990C28E0054A945 /* Note.h */,
-				BCC867441990C28E0054A945 /* Note.m */,
-			);
-			path = BusinessLogicLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +298,7 @@
 			files = (
 				1813CC801AB2B2BA00150C00 /* icon.jpg in Resources */,
 				1813CC821AB2B2C700150C00 /* icon.png in Resources */,
-				BCC867541990CE9C0054A945 /* AddViewController.xib in Resources */,
+				5C11FA771D4F2D00007A689B /* AddViewController.xib in Resources */,
 				BCC867071990961C0054A945 /* InfoPlist.strings in Resources */,
 				BCC867121990961C0054A945 /* Images.xcassets in Resources */,
 			);
@@ -319,16 +319,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCC867531990CE9C0054A945 /* AddViewController.m in Sources */,
-				BCC8674C1990C28E0054A945 /* NoteManagedObject.m in Sources */,
-				BCC8674B1990C28E0054A945 /* NoteDAO.m in Sources */,
-				BCC867371990980D0054A945 /* NoteBL.m in Sources */,
+				5C11FA751D4F2D00007A689B /* NoteManagedObject.m in Sources */,
+				5C11FA721D4F2D00007A689B /* NoteBL.m in Sources */,
+				5C11FA731D4F2D00007A689B /* CoreDataDAO.m in Sources */,
+				5C11FA741D4F2D00007A689B /* NoteDAO.m in Sources */,
+				5C11FA781D4F2D00007A689B /* RootViewController.m in Sources */,
 				BCC8670D1990961C0054A945 /* AppDelegate.m in Sources */,
 				BCC867091990961C0054A945 /* main.m in Sources */,
-				BCC8674F1990C2B70054A945 /* RootViewController.m in Sources */,
 				BCC867101990961C0054A945 /* CoreData.xcdatamodeld in Sources */,
-				BCC8674A1990C28E0054A945 /* Note.m in Sources */,
-				BCC867491990C28E0054A945 /* CoreDataDAO.m in Sources */,
+				5C11FA711D4F2D00007A689B /* Note.m in Sources */,
+				5C11FA761D4F2D00007A689B /* AddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
